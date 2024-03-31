@@ -1,0 +1,117 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.first {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.name {
+    color: #282d38;
+}
+.name marquee {
+    text-align: center;
+}
+
+.first-text {
+    color: #4c556a;
+}
+
+.first-img img {
+    width: 220px;
+    margin-top: 20px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: 0.5s;
+}
+.first-img img:hover {
+    transform: scale(1.2);
+}
+
+.second {
+    margin-top: 80px;
+    
+}
+
+.second .skills {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    color: white;
+    background-color: rgb(68, 68, 235);
+    border-radius: 10px;
+}
+
+.second-columns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second .second-columns {
+    margin-top: -140px;
+    max-width: 103.33333%;
+}
+
+.second .second-columns h3 {
+    color: #282d38;
+}
+
+.second-columns .first-column {
+    width: 310px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: #fff;
+    border-style: solid;
+    box-shadow: 0px 2px 10px 0px #000;
+    text-align: center;
+    transition: 0.5s;
+}
+.second-columns .first-column:hover {
+    box-shadow: 0px 2px 30px 0px #000;
+    font-size: 17px;
+    padding: 2%;
+}
+
+.second-columns .second-column {
+    width: 310px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: #fff;
+    border-style: solid;
+    box-shadow: 0px 2px 10px 0px #000;
+    text-align: center;
+    transition: 0.5s;
+}
+.second-columns .second-column:hover {
+    box-shadow: 0px 2px 30px 0px #000;
+    font-size: 17px;
+    padding: 2%;
+}
+
+.second-columns .third-column {
+    width: 310px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: #fff;
+    border-style: solid;
+    box-shadow: 0px 2px 10px 0px #000;
+    text-align: center;
+    transition: 0.5s;
+}
+.second-columns .third-column:hover {
+    box-shadow: 0px 2px 30px 0px #000;
+    font-size: 17px;
+    padding: 2%;
+}
+
+.second-columns span {
+    color: #4c556a;
+}
+
+.second-columns p {
+    color: #741cff;
+    font-size: 18px;
+}
